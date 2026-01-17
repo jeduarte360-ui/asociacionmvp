@@ -1,0 +1,8 @@
+{
+  "updated_at": "2026-01-14T00:00:00Z",
+  "results": {
+    "mayor": { "label": "Sorteo Mayor", "draw": "Sorteo 3996", "published_date": "2026-01-13", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor3996.pdf" },
+    "superior": { "label": "Sorteo Superior", "draw": "Sorteo 2867", "published_date": "2026-01-14", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2867.pdf" },
+    "zodiaco": { "label": "Sorteo Zodiaco", "draw": "Sorteo 1730", "published_date": "2026-01-12", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1730.pdf" }
+  }
+}

@@ -1,0 +1,53 @@
+name: Update Lotenal latest/history
+
+on:
+  schedule:
+    # EJEMPLO: corre 3 veces en cada día de sorteo (para “cazar” cuando el PDF ya exista)
+    # OJO: cron es en UTC. Hermosillo = UTC-7 (aprox). Ajusta las horas a tu caso real.
+
+    # Domingo (Zodiaco) - 3 intentos
+    - cron: "10 4 * * 1"
+    - cron: "40 4 * * 1"
+    - cron: "10 5 * * 1"
+
+    # Martes (Mayor) - 3 intentos
+    - cron: "10 4 * * 3"
+    - cron: "40 4 * * 3"
+    - cron: "10 5 * * 3"
+
+    # Viernes (Superior) - 3 intentos
+    - cron: "10 4 * * 6"
+    - cron: "40 4 * * 6"
+    - cron: "10 5 * * 6"
+
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run updater
+        run: python update.py
+
+      - name: Commit changes (if any)
+        run: |
+          if git status --porcelain | grep -qE 'data/state.json|data/latest.json|data/history.json'; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add data/state.json data/latest.json data/history.json
+            git commit -m "Update latest/history"
+            git push
+          else
+            echo "No changes to commit."
+          fi

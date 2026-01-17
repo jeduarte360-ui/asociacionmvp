@@ -5,7 +5,8 @@ import urllib.request
 import urllib.error
 from pathlib import Path
 
-DATA_DIR = Path("data")
+BASE_DIR = Path(__file__).resolve().parent.parent  # raíz del repo
+DATA_DIR = BASE_DIR / "data"
 STATE_FILE = DATA_DIR / "state.json"
 LATEST_FILE = DATA_DIR / "latest.json"
 HISTORY_FILE = DATA_DIR / "history.json"

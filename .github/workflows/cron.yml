@@ -38,7 +38,7 @@ jobs:
           python-version: "3.11"
 
       - name: Run updater
-        run: python update.py
+        run: python data/update.py
 
       - name: Commit changes (if any)
         run: |

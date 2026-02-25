@@ -1,8 +1,33 @@
 {
-  "updated_at": "2026-01-14T00:00:00Z",
+  "updated_at": "2026-02-25T05:36:21.696766Z",
   "items": [
-    { "type": "mayor", "label": "Sorteo Mayor", "draw": 3996, "published_date": "2026-01-13", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor3996.pdf" },
-    { "type": "superior", "label": "Sorteo Superior", "draw": 2867, "published_date": "2026-01-14", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2867.pdf" },
-    { "type": "zodiaco", "label": "Sorteo Zodiaco", "draw": 1730, "published_date": "2026-01-12", "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1730.pdf" }
+    {
+      "type": "mayor",
+      "label": "Sorteo Mayor",
+      "draw": 3997,
+      "published_date": "2026-02-24",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor3997.pdf"
+    },
+    {
+      "type": "superior",
+      "label": "Sorteo Superior",
+      "draw": 2867,
+      "published_date": "2026-01-14",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2867.pdf"
+    },
+    {
+      "type": "mayor",
+      "label": "Sorteo Mayor",
+      "draw": 3996,
+      "published_date": "2026-01-13",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor3996.pdf"
+    },
+    {
+      "type": "zodiaco",
+      "label": "Sorteo Zodiaco",
+      "draw": 1730,
+      "published_date": "2026-01-12",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1730.pdf"
+    }
   ]
 }

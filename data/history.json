@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-02-28T05:09:19.641138Z",
+  "updated_at": "2026-02-28T05:46:27.982272Z",
   "items": [
+    {
+      "type": "superior",
+      "label": "Sorteo Superior",
+      "draw": 2869,
+      "published_date": "2026-02-27",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2869.pdf"
+    },
     {
       "type": "superior",
       "label": "Sorteo Superior",

@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-03-02T06:05:22.184892Z",
+  "updated_at": "2026-03-04T05:12:28.638340Z",
   "results": {
     "mayor": {
       "label": "Sorteo Mayor",
-      "draw": "Sorteo 3999",
-      "published_date": "2026-02-24",
-      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor3999.pdf"
+      "draw": "Sorteo 4000",
+      "published_date": "2026-03-03",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor4000.pdf"
     },
     "superior": {
       "label": "Sorteo Superior",

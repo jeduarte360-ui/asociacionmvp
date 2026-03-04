@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-03-04T05:31:35.023282Z",
+  "updated_at": "2026-03-04T05:58:10.130389Z",
   "items": [
+    {
+      "type": "mayor",
+      "label": "Sorteo Mayor",
+      "draw": 4002,
+      "published_date": "2026-03-03",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor4002.pdf"
+    },
     {
       "type": "mayor",
       "label": "Sorteo Mayor",

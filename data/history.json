@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-03-09T05:44:25.218953Z",
+  "updated_at": "2026-03-09T06:10:14.028608Z",
   "items": [
+    {
+      "type": "zodiaco",
+      "label": "Sorteo Zodiaco",
+      "draw": 1736,
+      "published_date": "2026-03-08",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1736.pdf"
+    },
     {
       "type": "zodiaco",
       "label": "Sorteo Zodiaco",

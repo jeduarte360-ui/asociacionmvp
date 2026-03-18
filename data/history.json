@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-03-16T06:08:56.651484Z",
+  "updated_at": "2026-03-18T05:39:14.255643Z",
   "items": [
+    {
+      "type": "mayor",
+      "label": "Sorteo Mayor",
+      "draw": 4006,
+      "published_date": "2026-03-17",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/mayor/mayor4006.pdf"
+    },
     {
       "type": "zodiaco",
       "label": "Sorteo Zodiaco",

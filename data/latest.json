@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-18T05:39:14.255643Z",
+  "updated_at": "2026-03-21T05:11:37.753840Z",
   "results": {
     "mayor": {
       "label": "Sorteo Mayor",
@@ -9,9 +9,9 @@
     },
     "superior": {
       "label": "Sorteo Superior",
-      "draw": "Sorteo 2875",
-      "published_date": "2026-03-13",
-      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2875.pdf"
+      "draw": "Sorteo 2876",
+      "published_date": "2026-03-20",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2876.pdf"
     },
     "zodiaco": {
       "label": "Sorteo Zodiaco",

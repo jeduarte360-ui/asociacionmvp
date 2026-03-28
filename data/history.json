@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-03-23T05:45:59.439828Z",
+  "updated_at": "2026-03-28T05:34:11.322693Z",
   "items": [
+    {
+      "type": "superior",
+      "label": "Sorteo Superior",
+      "draw": 2878,
+      "published_date": "2026-03-27",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/superior/superior2878.pdf"
+    },
     {
       "type": "zodiaco",
       "label": "Sorteo Zodiaco",

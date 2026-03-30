@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-03-28T05:34:11.322693Z",
+  "updated_at": "2026-03-30T06:05:43.912321Z",
   "results": {
     "mayor": {
       "label": "Sorteo Mayor",
@@ -15,9 +15,9 @@
     },
     "zodiaco": {
       "label": "Sorteo Zodiaco",
-      "draw": "Sorteo 1739",
-      "published_date": "2026-03-22",
-      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1739.pdf"
+      "draw": "Sorteo 1740",
+      "published_date": "2026-03-29",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1740.pdf"
     }
   }
 }

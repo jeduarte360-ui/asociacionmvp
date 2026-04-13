@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-04-11T05:38:49.687037Z",
+  "updated_at": "2026-04-13T06:25:36.894657Z",
   "items": [
+    {
+      "type": "zodiaco",
+      "label": "Sorteo Zodiaco",
+      "draw": 1741,
+      "published_date": "2026-04-12",
+      "pdf_url": "https://lotenal.gob.mx/documentos/listapremios/zodiaco/zodiaco1741.pdf"
+    },
     {
       "type": "superior",
       "label": "Sorteo Superior",
